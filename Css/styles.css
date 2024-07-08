@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+h1, h2{
+    margin: 0;
+    color: white;
+}
+h2{
+    background-color: black;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.main-add h2{
+    margin: 10px 0px;
+}
+
+.main-edit h2{
+    margin: 10px 0px;
+}
+
+.student-table{
+    margin:10px 0px;
+}
+
+header{
+    background-color: black;
+}
+
+header h1{
+    text-align:center;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-bottom: 5px solid black;
+    font-family: "Baskervville SC", serif;
+}
+
+.crud-form{
+        display: flex;
+        justify-content: space-around;
+}
+
+label{
+    display: block;
+    color:black;
+}
+.addform{
+    background-color:white;
+    padding: 10px;
+    /* max-width: 500px; */
+    border: 2px solid black;
+    text-align: justify;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.addinputs{
+    margin: 10px 0px;
+    width: 100%;
+}
+.addinputs{
+      width: 100%;
+}
+input[type='submit']{
+  width: 100%;
+  border:0;
+  padding: 10px;
+  background-color: gray;
+  color:white;
+  font-size: 16px;
+  font-weight: bold;
+}
+ input[type='submit']:hover{
+    background-color: black;
+    /* color: white;  */
+ }
+input{
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 90%;
+}
+.text-area:focus{
+    border: 0;
+    outline: 0;
+    border: 2px solid black;
+
+}
+.addinputs label{
+    margin: 5px 0px;
+}
+.mainback{
+    padding: 20px;
+}
+
+.text-area{
+    resize: none;
+    border: 2px solid black;
+    width: 90%;
+    border-radius: 7px;
+}

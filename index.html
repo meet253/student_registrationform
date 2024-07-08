@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Javascript CRUD Operation App">
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+<body background="asset/urdW69.jpg">
+    <header>
+        <h1>Javascript CRUD Operation App</h1>
+    </header>
+    <main class="mainback">
+    <section>
+     <div class="crud-form">
+     <div class="main-add">
+     <h2> Student Add Data Form </h2>
+     <form class="addform" action="" id="AddForm" >
+        <div class="addinputs">
+            <label for="">StudentName</label>
+            <input class=inputs type="text" placeholder="Student Name" id="studentAddName" name="StudentAddName" value="">
+         </div>
+        <div class="addinputs">
+        <label for="">StudentsAge</label>
+        <input class=inputs type="text" placeholder="Student Age" id="studentAddAge" name="StudentAddAge" value="">
+        </div>
+        <div class="addinputs"> 
+            <label for="">StudentEmail</label>
+            <input class="inputs" type="email"  placeholder="Student Email" id="studentAddEmail" name="StudentAddEmail" value="">
+        </div>
+        <div class="addinputs">     
+            <label for="">StudentPhoneNo</label>
+            <input class="inputs" type="tel" placeholder="Student PhoneNo" id="studentAddPhoneNo" name="StudentAddPhoneNo" value="">
+            </div>
+            <div class="addinputs"> 
+                <label for="">StudentAddress</label>
+            <textarea class="input text-area" cols="10" rows="5" width="100px" id="studentAddAddress" name="StudentAddAddress" value=""></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+                </div>
+            </form>
+             </div>
+            <!-- ....................  -->
+            <div class="main-edit">
+                <h2> Student Edit Data Form </h2>
+                <form class="addform" action="" id="EditForm" >
+                   <div class="addinputs">
+                       <label for="">StudentName</label>
+                   <input class=inputs type="text" placeholder="Student Name" id="studentEditName" name="StudentEditName" value="">
+                    </div>
+                   <div class="addinputs">
+                   <label for="">StudentsAge</label>
+                   <input class=inputs type="text" placeholder="Student Age" id="studentEditAge" name="StudentEditAge" value="">
+                   </div>
+                   <div class="addinputs"> 
+                       <label for="">StudentEmail</label>
+                       <input class="inputs" type="email" placeholder="Student Email" id="studentEditEmail" name="StudentEditEmail" value="">
+                   </div>
+                   <div class="addinputs"> 
+                       <label for="">StudentPhoneNo</label>
+                       <input class="inputs" type="tel" placeholder="Student PhoneNo" id="studentEditPhoneNo" name="StudentEditPhoneNo" value="">
+                       </div>
+                       <div class="addinputs"> 
+                           <label for="">StudentAddress</label>
+                       <textarea class="text-area" cols="10" rows="5" id="studentEditAddress" name="StudentEditAddress" value=""></textarea>
+                       </div>
+                       <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                  </form>
+                </div>
+                <div class="student-table">
+                    <h2> Student Data View Table </h2>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <script src="js/script.js"> </script>
+</body>
+</html>
